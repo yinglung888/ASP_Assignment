@@ -1,0 +1,12 @@
+pip install aiohttp
+pip install slackclient==1.3.2
+pip install slack_bolt
+source .envVariables
+
+python -m venv .venv
+source .venv/bin/activate
+deactivate
+
+download and install ngrok
+brew install node
+sudo node index.js   # for testing ngrok
